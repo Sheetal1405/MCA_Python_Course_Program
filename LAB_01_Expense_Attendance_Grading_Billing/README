@@ -1,0 +1,71 @@
+# Integrated Expense, Attendance, Grading and Billing Manager
+
+## Technology
+Python 3.8+
+Standard Python library
+Console / CLI based
+
+## Features
+
+1. Expense Management
+2. Attendance Management
+3. Grading System
+4. Billing System
+5. Combined Reports
+
+## Project Structure
+
+main.py
+validators.py
+expenses.py
+attendance.py
+grading.py
+billing.py
+reports.py
+tests/test_cases.md
+README.md
+
+## How to Run in PyCharm
+
+1. Open the project folder in PyCharm.
+2. Make sure all Python files are in the same project folder.
+3. Open main.py.
+4. Right-click main.py.
+5. Select Run 'main'.
+
+## Student Identification
+
+Registration/Roll No. is unique and is used as the
+dictionary key for attendance and grading records.
+
+## Grading Scale
+
+90-100   A+
+80-89.99 A
+70-79.99 B
+60-69.99 C
+50-59.99 D
+35-49.99 E
+Below 35 F
+
+If any subject mark is below 35, the student FAILS.
+
+## Attendance
+
+>= 75%       Eligible
+60-74.99%    Warning
+< 60%        Shortage
+
+## Billing
+
+Below 1000       0%
+1000-4999.99     5%
+5000-9999.99     10%
+10000 and above  15%
+
+Tax = 18%
+
+## Important
+
+The program is console-based and does not use GUI.
+Data is stored in memory during program execution.
